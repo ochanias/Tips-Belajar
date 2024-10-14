@@ -1,0 +1,146 @@
+/* Styling Umum */
+body {
+    font-family: 'Georgia', serif; /* Menggunakan font serif untuk nuansa vintage */
+    background-color: #886d57;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background: url('https://images.unsplash.com/photo-1579070839351-02a7fdd545f5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&q=80&w=1080') no-repeat center center/cover;
+    padding: 40px;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.6);
+    border-radius: 10px; /* Sudut membulat */
+}
+
+h1 {
+    font-size: 48px;
+    margin: 0;
+}
+
+h2 {
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+/* Intro Section */
+.intro {
+    padding: 20px;
+    background-color: #ffeac1;
+    opacity: 60%;
+    font-size: 18px;
+    text-align: left;
+    max-width: 800px;
+    margin: auto;
+    border-radius: 10px; /* Sudut membulat */
+}
+
+/* Tips dan Sumber Daya */
+.tips, .resources {
+    padding: 40px;
+    background-color: #ffeac1;
+    opacity: 60%;
+    margin: 20px 0;
+    border-radius: 10px; /* Sudut membulat */
+}
+
+ul {
+    list-style-type: none; /* Menghilangkan bullet points */
+    padding: 0;
+}
+
+li {
+    margin: 10px 0;
+}
+
+/* Multimedia Section */
+.multimedia {
+    padding: 40px;
+    background-color: #fff8e0; /* Latar belakang multimedia */
+    margin: 20px 0;
+    border-radius: 10px; /* Sudut membulat */
+}
+
+.multimedia-img {
+    border-radius: 10px; /* Sudut membulat */
+    max-width: 100%; /* Responsif */
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.multimedia-audio, .multimedia-video {
+    border-radius: 10px; /* Sudut membulat */
+    margin-bottom: 20px;
+}
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+    height: 0;
+    overflow: hidden;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+/* Form Section */
+.form-section {
+    background-color: rgba(255, 255, 255, 0.8); /* Transparan */
+    padding: 30px;
+    margin-top: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(10px); /* Efek blur untuk latar belakang */
+    display: inline-block; /* Centering the form */
+}
+
+.form-group {
+    margin-bottom: 15px;
+    text-align: left; /* Align labels to the left */
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"], input[type="date"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    border: 2px solid #ffc494;
+    background-color: #fff;
+    font-size: 16px;
+    border-radius: 4px;
+    box-shadow: inset 2px 2px 5px rgba(0,0,0,0.1);
+    transition: border 0.3s ease;
+}
+
+input[type="text"]:focus, input[type="date"]:focus {
+    border-color: #ffc494;
+    outline: none; /* Remove default outline */
+}
+
+button.submit-btn {
+    padding: 10px 20px;
+    background-color: #742900;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+
+button.submit-btn:hover {
+    background-color: #592001;
+}
